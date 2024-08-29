@@ -24052,7 +24052,11 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1821636,
+<<<<<<< Updated upstream
       "PayloadLength": 35710,
+=======
+      "PayloadLength": 35851,
+>>>>>>> Stashed changes
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -24064,7 +24068,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1857433,
+=======
+      "PayloadOffset": 1857574,
+>>>>>>> Stashed changes
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -24312,6 +24320,7 @@
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
+        "Assets/BallTrigger.cs",
         "Assets/Scripts/Components/Altar/Altar.cs",
         "Assets/Scripts/Components/Altar/AltarAttract.cs",
         "Assets/Scripts/Components/Altar/AltarEntry.cs",
@@ -24323,7 +24332,9 @@
         "Assets/Scripts/Components/Catapult Target/Target.cs",
         "Assets/Scripts/Components/Catapult/Catapult.cs",
         "Assets/Scripts/Components/Catapult/CatapultRotate.cs",
+        "Assets/Scripts/Components/Catapult/Catapult_Static.cs",
         "Assets/Scripts/Components/Catapult/Projectile.cs",
+        "Assets/Scripts/Components/Catapult/Projectile_Static.cs",
         "Assets/Scripts/Components/CryptDoor/CryptDoor.cs",
         "Assets/Scripts/Components/CryptDoor/CryptUnlock.cs",
         "Assets/Scripts/Components/DropTarget/DropTarget.cs",
@@ -24626,7 +24637,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< Updated upstream
       "PayloadOffset": 1857529,
+=======
+      "PayloadOffset": 1857670,
+>>>>>>> Stashed changes
       "PayloadLength": 9719,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
