@@ -1,0 +1,806 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.24f1 (334eb2a0b267) revision 3362482'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16333 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\programe files x2\Unity\Editor\2022.3.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+H:/Uni/Capstone/Game/PinballAscension
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51180
+Successfully changed project path to: H:/Uni/Capstone/Game/PinballAscension
+H:/Uni/Capstone/Game/PinballAscension
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1744] Host "[IP] 192.168.8.144 [Port] 0 [Flags] 2 [Guid] 3671836219 [EditorId] 3671836219 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DET9CBS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1744] Host "[IP] 192.168.8.144 [Port] 0 [Flags] 2 [Guid] 3671836219 [EditorId] 3671836219 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DET9CBS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Refreshing native plugins compatible for Editor in 13.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.24f1 (334eb2a0b267)
+[Subsystems] Discovering subsystems at path D:/programe files x2/Unity/Editor/2022.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path H:/Uni/Capstone/Game/PinballAscension/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8067 MB
+    Driver:   32.0.15.5599
+Initialize mono
+Mono path[0] = 'D:/programe files x2/Unity/Editor/2022.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'D:/programe files x2/Unity/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/programe files x2/Unity/Editor/2022.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/programe files x2/Unity/Editor/2022.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006592 seconds.
+- Loaded All Assemblies, in  0.519 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.461 seconds
+Domain Reload Profiling: 980ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (201ms)
+		LoadAssemblies (180ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (177ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (462ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (372ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.923 seconds
+Refreshing native plugins compatible for Editor in 4.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.697 seconds
+Domain Reload Profiling: 1620ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (556ms)
+		LoadAssemblies (459ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (225ms)
+				TypeCache.ScanAssembly (206ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (698ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (513ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (401ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3535 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (122.7 KB). Loaded Objects now: 4001.
+Memory consumption went from 143.7 MB to 143.6 MB.
+Total: 3.998100 ms (FindLiveObjects: 0.288300 ms CreateObjectMapping: 0.326600 ms MarkObjects: 2.653800 ms  DeleteObjects: 0.728300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 280734.704789 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e1692e2f0bfe283f6bc610d1039e4b') in 0.127749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 8.733726 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcc2017486b5eef7a326e96c59f85ad') in 0.012665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 2.969570 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efa033d1dc7d54ad6b51a1b0d5151b0') in 0.012812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 1.999148 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1618e689338d3035a65505798a37668d') in 0.014104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 4.023415 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7330209f1ac7260b37a4df7e9599e9ba') in 0.010851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 3.229418 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caab5e6316524346e57e7895dbedf5f2') in 0.009446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 25.213236 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deef4fe86635f0bc879b610a28cb584d') in 0.010306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 5.052085 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57303085fa30806633d9afba52624e01') in 0.016611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 2.807099 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abe7f89b209d903e31cd9db6bde4e7b') in 0.012514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 5.428093 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ac76a3b97411a1d3842f445f8ca8f6') in 0.011600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 1.206916 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633685374e6790f50f1e6a27bcfc83af') in 0.014688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 5.023977 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15abcb12589fd3485d139460f5c3744') in 0.010129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 2.614142 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2570edf1ff2f01f1ce62536d20ea43') in 0.012021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 3.413349 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aea4a2eac00251c761706f1ca1cf1c3') in 0.010368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 4.433835 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746e8e24cbe736c5d6af227d8f0328e2') in 0.011121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 8.873604 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a75a7bc5b05c5fc50dc8a78f1793f3a') in 0.009417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 2.809294 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadad0ca4eda9315b88fedb511919284') in 0.010605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 6.039285 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a78e4f19d44c9c6d81791d3423d1eac') in 0.009905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 5.430071 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd3581e620700e907d18ba4a50e2c30') in 0.009578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 1.810875 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92343bf29fcf7238ed16547ce217a6e') in 0.009107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 4.018059 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ee0bc0e9831f7634ca39525759856f') in 0.010112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 184
+========================================================================
+Received Import Request.
+  Time since last request: 2.617748 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193df10e96c8bd337c64b95d398e7044') in 0.011748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 184
+========================================================================
+Received Import Request.
+  Time since last request: 3.847528 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed002c6d33f9a4cd1fc1be2ccc294c9') in 0.010734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 214
+========================================================================
+Received Import Request.
+  Time since last request: 1.801301 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abf6bbdf17850f971dd8bdce831888b') in 0.017777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 214
+========================================================================
+Received Import Request.
+  Time since last request: 5.447191 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fe97a29f04125a829c62f3d6810694') in 0.009421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 229
+========================================================================
+Received Import Request.
+  Time since last request: 2.610796 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea275fa7386b5e8ccacd6be198594ec') in 0.014935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 229
+========================================================================
+Received Import Request.
+  Time since last request: 14.322324 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8bead7c3cb9012069e29ae2009a14f0') in 0.010099 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 2.816405 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f39181f9762fd683c79814fc24d16d6') in 0.013685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 10.676478 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6878e91b0fd3e84f052c0a77559edd0') in 0.011143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 234
+========================================================================
+Received Import Request.
+  Time since last request: 7.848387 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d6513dfb0f80f45e2c317747095860') in 0.012597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 314
+========================================================================
+Received Import Request.
+  Time since last request: 4.844626 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35c46bbb2f9dcdc3840557b166661fc') in 0.011309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 314
+========================================================================
+Received Import Request.
+  Time since last request: 1.406355 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b558310c4da5128c91f7a6e98bd3a857') in 0.013905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 394
+========================================================================
+Received Import Request.
+  Time since last request: 2.402909 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e60dd7e19ff5adab0d92e26d38bcdc') in 0.013149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 394
+========================================================================
+Received Import Request.
+  Time since last request: 3.827377 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2696e229a91e48f7998bca6881736c7e') in 0.014994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 474
+========================================================================
+Received Import Request.
+  Time since last request: 2.614498 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdf268b6d6a9a48c029b219ffedad46') in 0.019156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 474
+========================================================================
+Received Import Request.
+  Time since last request: 1.215827 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4110e69f3fdf2f69d5aa0cc7f2b7131') in 0.015781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 554
+========================================================================
+Received Import Request.
+  Time since last request: 2.796762 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b874d21d21490002e308490406a0048') in 0.016519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 554
+========================================================================
+Received Import Request.
+  Time since last request: 1.597350 seconds.
+  path: Assets/Prefabs/Components/Bookcase_boarder.prefab
+  artifactKey: Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_boarder.prefab using Guid(3fa7051d18c612949bbc2e390f6476f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de94da7eb47d953f675b4080d3a06e95') in 0.018780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 554
+========================================================================
+Received Import Request.
+  Time since last request: 180.106441 seconds.
+  path: Assets/Models/Bookcase_deadbumper.fbx
+  artifactKey: Guid(bf058dd27fa6582468cf5906b4584d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bookcase_deadbumper.fbx using Guid(bf058dd27fa6582468cf5906b4584d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1a60465bdd179ff8dff586cd1f4425') in 0.056906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 125
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.486 seconds
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.990 seconds
+Domain Reload Profiling: 1476ms
+	BeginReloadAssembly (193ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (217ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (990ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (409ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (315ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3495 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (79.2 KB). Loaded Objects now: 4015.
+Memory consumption went from 141.2 MB to 141.1 MB.
+Total: 4.982500 ms (FindLiveObjects: 0.317200 ms CreateObjectMapping: 0.289500 ms MarkObjects: 4.247200 ms  DeleteObjects: 0.127400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 326.921311 seconds.
+  path: Assets/Prefabs/Components/Bookcases_deadbumper.prefab
+  artifactKey: Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcases_deadbumper.prefab using Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12c5a0997d88e9d696e04c4b03564f6') in 0.092923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 306.893810 seconds.
+  path: Assets/Prefabs/Components/Bookcases_deadbumper.prefab
+  artifactKey: Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcases_deadbumper.prefab using Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf9e9b1853f0d1b700cb9c6c94b1837') in 0.025053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 484
+========================================================================
+Received Import Request.
+  Time since last request: 48.826512 seconds.
+  path: Assets/Prefabs/Components/Bookcases_deadbumper.prefab
+  artifactKey: Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcases_deadbumper.prefab using Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0808f6e754eb64468d65a2efd121783') in 0.015199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 484
+========================================================================
+Received Import Request.
+  Time since last request: 20.889324 seconds.
+  path: Assets/Prefabs/Components/Bookcases_deadbumper.prefab
+  artifactKey: Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcases_deadbumper.prefab using Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f6a204b4724e36861ea5f9cc61fe13') in 0.031001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 484
+========================================================================
+Received Import Request.
+  Time since last request: 9.292814 seconds.
+  path: Assets/Prefabs/Components/Bookcase_deadbumper.prefab
+  artifactKey: Guid(7fc57fe0adb7a514a855f015cf7401eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_deadbumper.prefab using Guid(7fc57fe0adb7a514a855f015cf7401eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecaeed46e5cf814b993be848b343a402') in 0.040844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time since last request: 0.122217 seconds.
+  path: Assets/Prefabs/Components/Bookcases_deadbumper.prefab
+  artifactKey: Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcases_deadbumper.prefab using Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f409a50ff6b005a6adfe4c3110ee26') in 0.047372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 594
+========================================================================
+Received Import Request.
+  Time since last request: 1.594597 seconds.
+  path: Assets/Prefabs/Components/Bookcase_deadbumper (2).prefab
+  artifactKey: Guid(3a117900224e6184d9b34e52cf7e0924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_deadbumper (2).prefab using Guid(3a117900224e6184d9b34e52cf7e0924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7162f7628c38b1af0930d0e3acc270f1') in 0.017962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 213
+========================================================================
+Received Import Request.
+  Time since last request: 0.186645 seconds.
+  path: Assets/Prefabs/Components/Bookcases_deadbumper.prefab
+  artifactKey: Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcases_deadbumper.prefab using Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b590efcb3632cece182b283933f2ad9d') in 0.023573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 648
+========================================================================
+Received Import Request.
+  Time since last request: 1.689169 seconds.
+  path: Assets/Prefabs/Components/Bookcase_deadbumper (1).prefab
+  artifactKey: Guid(7c19217df9a11234487fea3939cff752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcase_deadbumper (1).prefab using Guid(7c19217df9a11234487fea3939cff752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6159c7aa8e1ed03093d356611736879') in 0.029580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 283
+========================================================================
+Received Import Request.
+  Time since last request: 0.176498 seconds.
+  path: Assets/Prefabs/Components/Bookcases_deadbumper.prefab
+  artifactKey: Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/Bookcases_deadbumper.prefab using Guid(fdd4a6073a2bbe945a97450f2bfcbcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c720c926927d957dad4759964d5e140c') in 0.018698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 758
+========================================================================
+Received Import Request.
+  Time since last request: 354.159891 seconds.
+  path: Assets/Prefabs/Boards/BoardThree.prefab
+  artifactKey: Guid(93fdc7b6d9f7af641856f43c3806e49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Boards/BoardThree.prefab using Guid(93fdc7b6d9f7af641856f43c3806e49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42622997aa7979081eff2b214e98d2a') in 0.408655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7375
+========================================================================
+Received Import Request.
+  Time since last request: 35.352318 seconds.
+  path: Assets/Prefabs/Components/BumperHighAngleLeft.prefab
+  artifactKey: Guid(a27e62d10a5412844a3d38726f22e322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/BumperHighAngleLeft.prefab using Guid(a27e62d10a5412844a3d38726f22e322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792ba32aecdaae463e689ee9aade311d') in 0.028552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 284
+========================================================================
+Received Import Request.
+  Time since last request: 4.502522 seconds.
+  path: Assets/Prefabs/Components/BumperHighAngleRight.prefab
+  artifactKey: Guid(2301b2720b2f5cc4a99c589f085f41e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/BumperHighAngleRight.prefab using Guid(2301b2720b2f5cc4a99c589f085f41e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e412de1fe2b1c87d648d52295ca4750d') in 0.028788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 284
+========================================================================
+Received Import Request.
+  Time since last request: 12.748047 seconds.
+  path: Assets/Scenes/B4.unity
+  artifactKey: Guid(6fd453eb60b7f8e43873385dbbfdff34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/B4.unity using Guid(6fd453eb60b7f8e43873385dbbfdff34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf957a0e6553bf0e779c8b6d543e218') in 0.000627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 57.968060 seconds.
+  path: Assets/Main Menu Asset/Background.png
+  artifactKey: Guid(6e352b800b5e86440a797eb41b4180d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main Menu Asset/Background.png using Guid(6e352b800b5e86440a797eb41b4180d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd13ae1d4007ea4c6da6534719f7c530') in 0.087421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 171.418152 seconds.
+  path: Assets/Models/Bookcase_bumper.fbx
+  artifactKey: Guid(ccf7d31aaa8f7c44291fe3598f0db715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bookcase_bumper.fbx using Guid(ccf7d31aaa8f7c44291fe3598f0db715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e57648ca08d206d5b8aa9256ae07f2') in 0.040678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 875.370509 seconds.
+  path: Assets/Models/BookcaseBumper2.fbx
+  artifactKey: Guid(ff15ff31c3b4e6b488bed4d7d818f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BookcaseBumper2.fbx using Guid(ff15ff31c3b4e6b488bed4d7d818f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c54c1f4b3498119e18d997550fc725') in 0.070813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.515669 seconds.
+  path: Assets/Models/BookcaseBumper2.fbx
+  artifactKey: Guid(ff15ff31c3b4e6b488bed4d7d818f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BookcaseBumper2.fbx using Guid(ff15ff31c3b4e6b488bed4d7d818f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef0e60267c90efbe2f98644072255e5') in 0.037340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 125
+========================================================================
+Received Import Request.
+  Time since last request: 196.084312 seconds.
+  path: Assets/Prefabs/Components/BookcaseBumper2.prefab
+  artifactKey: Guid(0ddb2f1a6699b0344a4ff6abdbf73347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/BookcaseBumper2.prefab using Guid(0ddb2f1a6699b0344a4ff6abdbf73347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613544be698db9d71c546db71bf24de1') in 0.018337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 721.026410 seconds.
+  path: Assets/Models/BookcaseBumper2left.fbx
+  artifactKey: Guid(29aade3ceb619f44f90971b7185383a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BookcaseBumper2left.fbx using Guid(29aade3ceb619f44f90971b7185383a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e9da90f31cf9481be7f2a07554b495') in 0.029238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 7.231512 seconds.
+  path: Assets/Models/BookcaseBumper2left.fbx
+  artifactKey: Guid(29aade3ceb619f44f90971b7185383a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BookcaseBumper2left.fbx using Guid(29aade3ceb619f44f90971b7185383a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849d327267a9f0d66e59698acfd37317') in 0.025484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 226.236420 seconds.
+  path: Assets/Prefabs/Components/BookcaseBumper2left.prefab
+  artifactKey: Guid(c463b074a37a8234c9fe8adc8bb8a001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/BookcaseBumper2left.prefab using Guid(c463b074a37a8234c9fe8adc8bb8a001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c90fc2f3fbbba3898098d035782f496') in 0.027252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.011422 seconds.
+  path: Assets/Prefabs/Components/BookcaseBumper2.prefab
+  artifactKey: Guid(0ddb2f1a6699b0344a4ff6abdbf73347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Components/BookcaseBumper2.prefab using Guid(0ddb2f1a6699b0344a4ff6abdbf73347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64ffa78b9be93d845b645c63bc7c54d') in 0.031665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 743
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.796 seconds
+Refreshing native plugins compatible for Editor in 4.45 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.990 seconds
+Domain Reload Profiling: 2787ms
+	BeginReloadAssembly (327ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (140ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (497ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1991ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (528ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3495 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (94.4 KB). Loaded Objects now: 4058.
+Memory consumption went from 145.4 MB to 145.3 MB.
+Total: 6.879300 ms (FindLiveObjects: 0.874400 ms CreateObjectMapping: 0.760500 ms MarkObjects: 5.109500 ms  DeleteObjects: 0.134000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
