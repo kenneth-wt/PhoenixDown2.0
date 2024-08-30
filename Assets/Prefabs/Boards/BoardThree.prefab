@@ -24328,6 +24328,7 @@ MonoBehaviour:
   - {fileID: 6268035443749343725}
   - {fileID: 0}
   - {fileID: 0}
+  orbit: {fileID: 0}
   camera: {fileID: 0}
   disabled: {fileID: 2100000, guid: e3a9a291e22ca264caaf70e2b9621cb5, type: 2}
 --- !u!1 &6785015352909937805
@@ -24538,7 +24539,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   glyphDoor: {fileID: 5856814787493712598}
   isCorrectGlyph: 0
-  disabled: {fileID: 2100000, guid: e3a9a291e22ca264caaf70e2b9621cb5, type: 2}
+  target: {fileID: 0}
+  success: {fileID: 0}
+  penalty: {fileID: 0}
+  glyph: {fileID: 0}
 --- !u!1001 &69592951979932742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24891,7 +24895,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   glyphDoor: {fileID: 5856814787493712598}
   isCorrectGlyph: 0
-  disabled: {fileID: 2100000, guid: e3a9a291e22ca264caaf70e2b9621cb5, type: 2}
+  target: {fileID: 0}
+  success: {fileID: 0}
+  penalty: {fileID: 0}
+  glyph: {fileID: 0}
 --- !u!1001 &863610051279567661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26125,7 +26132,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 892752120381233196, guid: cd040486286e33849a2f9b15504cc13b, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 33.07471
+      value: 3.0147128
       objectReference: {fileID: 0}
     - target: {fileID: 892752120381233196, guid: cd040486286e33849a2f9b15504cc13b, type: 3}
       propertyPath: m_ConnectedAnchor.y
@@ -27365,7 +27372,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1129190452659464140, guid: 4fc6cb81eb814e942a2433ccdf5cc7fc, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 27.01899
+      value: -3.0410092
       objectReference: {fileID: 0}
     - target: {fileID: 1129190452659464140, guid: 4fc6cb81eb814e942a2433ccdf5cc7fc, type: 3}
       propertyPath: m_ConnectedAnchor.y
@@ -27723,7 +27730,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   glyphDoor: {fileID: 5856814787493712598}
   isCorrectGlyph: 0
-  disabled: {fileID: 2100000, guid: e3a9a291e22ca264caaf70e2b9621cb5, type: 2}
+  target: {fileID: 0}
+  success: {fileID: 0}
+  penalty: {fileID: 0}
+  glyph: {fileID: 0}
 --- !u!4 &2407945585371822977 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6047692378516439491, guid: 3a88130575fa9524c85c12032cbcc407, type: 3}
@@ -27812,7 +27822,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   glyphDoor: {fileID: 5856814787493712598}
   isCorrectGlyph: 0
-  disabled: {fileID: 2100000, guid: e3a9a291e22ca264caaf70e2b9621cb5, type: 2}
+  target: {fileID: 0}
+  success: {fileID: 0}
+  penalty: {fileID: 0}
+  glyph: {fileID: 0}
 --- !u!4 &2364932941087178781 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6047692378516439491, guid: 3a88130575fa9524c85c12032cbcc407, type: 3}
