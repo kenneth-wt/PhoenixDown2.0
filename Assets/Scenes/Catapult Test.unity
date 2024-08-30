@@ -457,7 +457,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 582441097}
   ready: 1
-  inputButtonName: Plunger
   launchPower: 30
 --- !u!1001 &1556908066
 PrefabInstance:
