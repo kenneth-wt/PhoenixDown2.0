@@ -24052,11 +24052,7 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 1821636,
-<<<<<<< Updated upstream
-      "PayloadLength": 35710,
-=======
-      "PayloadLength": 35851,
->>>>>>> Stashed changes
+      "PayloadLength": 35881,
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -24068,11 +24064,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1857433,
-=======
-      "PayloadOffset": 1857574,
->>>>>>> Stashed changes
+      "PayloadOffset": 1857604,
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -24321,6 +24313,7 @@
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
         "Assets/BallTrigger.cs",
+        "Assets/BallTriggerYBall.cs",
         "Assets/Scripts/Components/Altar/Altar.cs",
         "Assets/Scripts/Components/Altar/AltarAttract.cs",
         "Assets/Scripts/Components/Altar/AltarEntry.cs",
@@ -24637,11 +24630,7 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
-<<<<<<< Updated upstream
-      "PayloadOffset": 1857529,
-=======
-      "PayloadOffset": 1857670,
->>>>>>> Stashed changes
+      "PayloadOffset": 1857700,
       "PayloadLength": 9719,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
