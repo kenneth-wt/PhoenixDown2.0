@@ -399,6 +399,7 @@
 "Assets/Scripts/Components/RollOver/Glyph.cs"
 "Assets/Scripts/Constants.cs"
 "Assets/Scripts/GameManager/CameraFollow.cs"
+"Assets/Scripts/GameManager/CameraFollowB4.cs"
 "Assets/Scripts/GameManager/CatapultEnable.cs"
 "Assets/Scripts/GameManager/CatapultSequence.cs"
 "Assets/Scripts/GameManager/GameStart.cs"
