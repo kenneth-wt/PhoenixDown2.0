@@ -5630,10 +5630,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0031c657b04f31c4097e0a85ad5716f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainBall: {fileID: 0}
+  mainBall: {fileID: 1778863603}
   smoothSpeed: 0.125
-  followZThreshold: -2
-  zOffset: -3
+  zOffset: 7
 --- !u!1001 &967667291
 PrefabInstance:
   m_ObjectHideFlags: 0
