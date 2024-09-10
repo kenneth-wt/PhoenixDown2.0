@@ -1,87 +1,101 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;  // Import the SceneManager
 
 public class CatapultSequence : MonoBehaviour
 {
-  public GameObject[] catapults;
-  public GameObject[] projectiles;
-  public GameObject rampExit;
-  public new GameObject camera;
+    public GameObject[] catapults;
+    public GameObject[] projectiles;
+    public GameObject rampExit;
+    public new GameObject camera;
 
-  private int currentNum;
+    public int currentNum;
+    public int target_count = 0;  // Variable to track the number of hits
 
-  public void InitiateCatapultSequence()
-  {
-    foreach (GameObject catapult in catapults)
+    public void InitiateCatapultSequence()
     {
-      if (catapult.GetComponent<Catapult>().rotated)
-      {
-        camera.GetComponent<CameraFollow>().CatapultFollow();
-        break;
-      }
-    }
-    
-    EnableNextCatapult();
-  }
+        foreach (GameObject catapult in catapults)
+        {
+            if (catapult.GetComponent<Catapult>().rotated)
+            {
+                camera.GetComponent<CameraFollow>().CatapultFollow();
+                break;
+            }
+        }
 
-  public void EnableNextCatapult()
-  {
-    if (currentNum >= catapults.Length)
-    {
-      InitiateReset();
-      return;
+        EnableNextCatapult();
     }
 
-    Catapult catapultScript = catapults[currentNum].GetComponent<Catapult>();
-
-    if (!catapultScript.rotated)
+    public void EnableNextCatapult()
     {
-      InitiateReset();
-      return;
+        if (currentNum >= catapults.Length)
+        {
+            InitiateReset();
+            return;
+        }
+
+        Catapult catapultScript = catapults[currentNum].GetComponent<Catapult>();
+
+        if (!catapultScript.rotated)
+        {
+            InitiateReset();
+            return;
+        }
+
+        if (currentNum > 0)
+        {
+            projectiles[currentNum - 1].SetActive(false);
+            catapults[currentNum - 1].GetComponentInParent<Plunger>().enabled = false;
+        }
+
+        catapults[currentNum].GetComponentInParent<Plunger>().enabled = true;
+        catapultScript.ready = true;
+        currentNum++;
     }
 
-    if (currentNum > 0)
+    private void InitiateReset()
     {
-      projectiles[currentNum - 1].SetActive(false);
-      catapults[currentNum - 1].GetComponentInParent<Plunger>().enabled = false; // TODO: Shift this to be on ball release rather than here
-    } 
+        currentNum = 0;
 
-    catapults[currentNum].GetComponentInParent<Plunger>().enabled = true;
-    catapultScript.ready = true;
-    currentNum++;
-  }
+        foreach (GameObject projectile in projectiles)
+        {
+            projectile.GetComponent<Projectile>().Reset();
+        }
 
-  private void InitiateReset()
-  {
-    currentNum = 0;
+        foreach (GameObject catapult in catapults)
+        {
+            catapult.GetComponentInParent<Plunger>().enabled = false;
+        }
 
-    foreach (GameObject projectile in projectiles)
-    {
-      projectile.GetComponent<Projectile>().Reset();
+        StartCoroutine(WaitToReset());
     }
 
-    foreach (GameObject catapult in catapults)
+    IEnumerator WaitToReset()
     {
-      catapult.GetComponentInParent<Plunger>().enabled = false;
+        yield return new WaitForSeconds(2f);
+
+        camera.GetComponent<CameraFollow>().ResetCamera();
+
+        yield return new WaitForSeconds(2f);
+
+        rampExit.GetComponent<RampExit>().ExitRamp();
     }
 
-    StartCoroutine(WaitToReset());
-  }
+    public void RegisterHit()
+    {
+        // Increment the target_count each time a hit is registered
+        target_count++;
+        Debug.Log("Hit! Target count: " + target_count);
 
-  IEnumerator WaitToReset()
-  {
-    yield return new WaitForSeconds(2f);
+        // Check if the target count has reached 3
+        if (target_count == 3)
+        {
+            Debug.Log("Change sequence");
 
-    camera.GetComponent<CameraFollow>().ResetCamera();
+            // Change the scene to the one with index 3
+            SceneManager.LoadScene(3);
+        }
 
-    yield return new WaitForSeconds(2f);
-
-    rampExit.GetComponent<RampExit>().ExitRamp();
-  }
-  
-  public void RegisterHit()
-  {
-    Debug.Log("Hit!");
-    EnableNextCatapult();
-  }
+        EnableNextCatapult();
+    }
 }

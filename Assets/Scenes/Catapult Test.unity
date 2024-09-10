@@ -242,6 +242,7 @@ MonoBehaviour:
   catapultSequence: {fileID: 0}
   smoothSpeed: 0.125
   followZThreshold: -2
+  zOffset: -2
 --- !u!81 &1355380801
 AudioListener:
   m_ObjectHideFlags: 0
