@@ -15,6 +15,7 @@ public class GameManagerB4 : MonoBehaviour
 
     private void Awake()
     {
+        Physics.gravity = new Vector3(0, -30, -9.81F);
         if (ballRb == null && ball != null)
         {
             ballRb = ball.GetComponent<Rigidbody>();
