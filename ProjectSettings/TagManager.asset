@@ -15,6 +15,7 @@ TagManager:
   - MinigameMiss
   - Target
   - Projectile
+  - Wall
   layers:
   - Default
   - TransparentFX

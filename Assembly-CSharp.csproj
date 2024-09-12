@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AC1596B6-B926-8B23-6769-58C5A18F09BC}</ProjectGuid>
+    <ProjectGuid>{E8884A0F-E0E8-B012-D6BA-9DAA6A485E56}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,6 +66,8 @@
     <Compile Include="Assets\Scripts\GameManager\GameStart.cs" />
     <Compile Include="Assets\Scripts\Components\Popper\WellPopper.cs" />
     <Compile Include="Assets\Scripts\Components\Bumper\ResetZombie.cs" />
+    <Compile Include="Assets\Scripts\particalsystem.cs" />
+    <Compile Include="Assets\Scripts\B4\GhostBlue.cs" />
     <Compile Include="Assets\Scripts\Components\Plunger\Pull.cs" />
     <Compile Include="Assets\Scripts\Components\Ramp\RampEntryLock.cs" />
     <Compile Include="Assets\Scripts\Components\Kicker\BallKicker.cs" />
@@ -74,16 +76,19 @@
     <Compile Include="Assets\Scripts\Constants.cs" />
     <Compile Include="Assets\Scripts\Components\Flipper\Flipper.cs" />
     <Compile Include="Assets\Scripts\GameManager\RegisterTargetHit.cs" />
+    <Compile Include="Assets\Scripts\EnableCatapultB1.cs" />
     <Compile Include="Assets\Scripts\Components\CryptDoor\CryptUnlock.cs" />
     <Compile Include="Assets\Scripts\GameManager\CatapultEnable.cs" />
     <Compile Include="Assets\Scripts\Components\Ramp\RampExit.cs" />
     <Compile Include="Assets\Scripts\Components\Bumper\DisableOnContact.cs" />
+    <Compile Include="Assets\Scripts\Components\Catapult\Projectile_Static.cs" />
     <Compile Include="Assets\Scripts\Transitions\B3B2LossTransition.cs" />
     <Compile Include="Assets\Scripts\Transitions\B2B3TransitionTrigger.cs" />
     <Compile Include="Assets\Scripts\Components\Bumper\BumperOneEdge.cs" />
     <Compile Include="Assets\Scripts\GameManager\TiltReset.cs" />
     <Compile Include="Assets\Scripts\Components\DropTarget\DropTarget.cs" />
     <Compile Include="Assets\Scripts\GameManager\LayoutZombies.cs" />
+    <Compile Include="Assets\Scripts\B4\GameManagerB4.cs" />
     <Compile Include="Assets\Scripts\Parallax.cs" />
     <Compile Include="Assets\Scripts\Components\Bumper\LateralMovement.cs" />
     <Compile Include="Assets\Scripts\Components\Catapult Target\Target.cs" />
@@ -96,14 +101,19 @@
     <Compile Include="Assets\Scripts\Components\Ramp\RampPlatformLaunch.cs" />
     <Compile Include="Assets\Scripts\Components\RollOver\Glyph.cs" />
     <Compile Include="Assets\Scripts\Transitions\B3BallEntry.cs" />
+    <Compile Include="Assets\Scripts\Components\Ball Trigger\BallTrigger.cs" />
     <Compile Include="Assets\Scripts\Components\Popper\BallPopper.cs" />
     <Compile Include="Assets\Scripts\Components\Altar\AltarAttract.cs" />
     <Compile Include="Assets\Scripts\Transitions\BlackFade.cs" />
+    <Compile Include="Assets\Scripts\GameManager\CameraFollowB4.cs" />
+    <Compile Include="Assets\Scripts\Components\Ball Trigger\BallTriggerYBall.cs" />
     <Compile Include="Assets\Scripts\Components\Ramp\RampLaunch.cs" />
+    <Compile Include="Assets\Scripts\B4\PurificationCrystal.cs" />
     <Compile Include="Assets\Scripts\Components\Flipper\FlipperEnable.cs" />
     <Compile Include="Assets\Scripts\Components\Popper\WellReset.cs" />
     <Compile Include="Assets\Scripts\UI Menu\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Transitions\B2B3Transition.cs" />
+    <Compile Include="Assets\Scripts\Components\Catapult\Catapult_Static.cs" />
     <Compile Include="Assets\Scripts\Components\Plunger\Plunger.cs" />
     <Compile Include="Assets\Scripts\PanCamera.cs" />
     <Compile Include="Assets\Scripts\Components\GlyphDoor\GlyphDoor.cs" />
