@@ -16,6 +16,7 @@ TagManager:
   - Target
   - Projectile
   - Wall
+  - DestroyAble
   layers:
   - Default
   - TransparentFX

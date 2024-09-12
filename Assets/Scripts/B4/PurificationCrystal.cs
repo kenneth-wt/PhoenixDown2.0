@@ -12,7 +12,7 @@ public class PurificationCrystal : MonoBehaviour
             GameManagerB4 gameManager = FindObjectOfType<GameManagerB4>();
             if (gameManager != null)
             {
-                gameManager.RemoveBuff();
+                gameManager.RemoveBlueGhostBuff();
             }
 
             // Optionally, deactivate the crystal after use

@@ -1,17 +1,25 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManagerB4 : MonoBehaviour
 {
     public GameObject blueGhost;
+    public GameObject redGhost;
     public GameObject purificationCrystal;
     public GameObject ball;
     public Rigidbody ballRb;
     public float normalSpeed = 10f;
-    public float blueGhostBuffedSpeed = 25f;
-    private bool isBuffed = false;
-    private float buffTimeLeft = 0f;
+    public float blueGhostBuffedSpeed = 100f;
+    public float blueGhostBuffedMass = 0.2f;
+
+    private bool isRedBuffed = false;  // Flag for Red Ghost Buff
+    private bool isBlueBuffed = false; // Flag for Blue Ghost Buff
     private bool isPaused = false;
+
+    // Public list of GameObjects to make their colliders trigger upon Red Buff activation
+    public List<GameObject> RedtriggerObjects; 
+    public List<GameObject> BluetriggerObjects;
 
     private void Awake()
     {
@@ -24,19 +32,9 @@ public class GameManagerB4 : MonoBehaviour
 
     private void Update()
     {
-        // Handle the game pause/resume functionality
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             TogglePauseGame();
-        }
-
-        if (isBuffed)
-        {
-            buffTimeLeft -= Time.deltaTime;
-            if (buffTimeLeft <= 0)
-            {
-                RemoveBuff();
-            }
         }
     }
 
@@ -54,50 +52,91 @@ public class GameManagerB4 : MonoBehaviour
 
     public void PauseGame()
     {
-        Time.timeScale = 0f; // Pause the game
+        Time.timeScale = 0f;
         isPaused = true;
-        // Optionally, show the pause menu or UI here
     }
 
     public void ResumeGame()
     {
-        Time.timeScale = 1f; // Resume the game
+        Time.timeScale = 1f;
         isPaused = false;
-        // Optionally, hide the pause menu or UI here
     }
 
-    public void ApplyBlueGhostBuff(float duration)
+    // Apply the Blue Ghost buff for a specified duration
+    public void ApplyBlueGhostBuff()
     {
-        isBuffed = true;
-        buffTimeLeft = duration;
+        isBlueBuffed = true;
         ballRb.velocity = ballRb.velocity.normalized * blueGhostBuffedSpeed;
-    }
+        ballRb.mass = blueGhostBuffedMass;
+        Debug.Log("Blue Ghost Buff activated!");
 
-    public void RemoveBuff()
-    {
-        isBuffed = false;
-        ballRb.velocity = ballRb.velocity.normalized * normalSpeed;
-    }
-
-    public void ActivateBlueGhost()
-    {
-        if (blueGhost != null)
+        // Set all GameObjects in the triggerObjects list to have isTrigger = true
+        foreach (GameObject obj in BluetriggerObjects)
         {
-            blueGhost.SetActive(true);
+            Collider col = obj.GetComponent<Collider>();
+            if (col != null)
+            {
+                col.isTrigger = true;  // Set the collider to trigger
+                Debug.Log("Set isTrigger = true for: " + obj.name);
+            }
+            else
+            {
+                Debug.LogWarning("No Collider found on " + obj.name);
+            }
         }
     }
 
-    public void DeactivateBlueGhost()
+    // Remove the Blue Ghost buff
+    public void RemoveBlueGhostBuff()
     {
-        if (blueGhost != null)
+        isBlueBuffed = false;
+        ballRb.mass = 0.6f; // Reset mass to normal value
+        Debug.Log("Blue Ghost Buff deactivated!");
+    }
+
+    // Apply the Red Ghost buff permanently and set certain GameObjects' colliders to trigger
+    public void ApplyRedGhostBuff()
+    {
+        isRedBuffed = true;
+        Debug.Log("Red Ghost Buff activated!");
+
+        // Set all GameObjects in the triggerObjects list to have isTrigger = true
+        foreach (GameObject obj in RedtriggerObjects)
         {
-            blueGhost.SetActive(false);
+            Collider col = obj.GetComponent<Collider>();
+            if (col != null)
+            {
+                col.isTrigger = true;  // Set the collider to trigger
+                Debug.Log("Set isTrigger = true for: " + obj.name);
+            }
+            else
+            {
+                Debug.LogWarning("No Collider found on " + obj.name);
+            }
         }
     }
 
-    IEnumerator ManageBuffEffect()
+    // Remove the Red Ghost buff manually
+    public void RemoveRedGhostBuff()
     {
-        yield return new WaitForSeconds(Constants.fadeDuration + Constants.fadeBuffer);
-        ApplyBlueGhostBuff(5f);
+        isRedBuffed = false;
+        Debug.Log("Red Ghost Buff deactivated!");
+
+        // Optionally, reset the colliders' isTrigger back to false when the buff is removed
+        foreach (GameObject obj in RedtriggerObjects)
+        {
+            Collider col = obj.GetComponent<Collider>();
+            if (col != null)
+            {
+                col.isTrigger = false;  // Optionally set the collider back to non-trigger
+                Debug.Log("Set isTrigger = false for: " + obj.name);
+            }
+        }
+    }
+
+    // Method to check if the Red Ghost Buff is active
+    public bool IsRedBuffActive()
+    {
+        return isRedBuffed;
     }
 }

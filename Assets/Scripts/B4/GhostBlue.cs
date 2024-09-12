@@ -14,7 +14,7 @@ public class BlueGhost : MonoBehaviour
             GameManagerB4 gameManager = FindObjectOfType<GameManagerB4>();
             if (gameManager != null)
             {
-                gameManager.ApplyBlueGhostBuff(buffDuration);
+                gameManager.ApplyBlueGhostBuff();
             }
 
             // Optionally, deactivate the BlueGhost after the ball hits it
