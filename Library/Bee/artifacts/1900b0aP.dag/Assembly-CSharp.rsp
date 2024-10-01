@@ -310,6 +310,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.24f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/DestructibleObject.cs"
 "Assets/GreenGhost.cs"
+"Assets/LightActivator.cs"
 "Assets/Scripts/B4/GameManagerB4.cs"
 "Assets/Scripts/B4/GhostBlue.cs"
 "Assets/Scripts/B4/GhostRed.cs"
