@@ -19700,7 +19700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mainBall: {fileID: 1778863603}
   smoothSpeed: 0.125
-  zOffset: 10
+  zOffset: 5
 --- !u!1001 &965246556
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34425,6 +34425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 3000
+  scorePoints: 50
 --- !u!136 &1920003754
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -39523,6 +39524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 3000
+  scorePoints: 50
 --- !u!136 &9040382895229861013
 CapsuleCollider:
   m_ObjectHideFlags: 0
