@@ -410,6 +410,7 @@
 "Assets/Scripts/GameManager/LayoutZombies.cs"
 "Assets/Scripts/GameManager/RegisterTargetHit.cs"
 "Assets/Scripts/GameManager/ResetBall.cs"
+"Assets/Scripts/GameManager/ScoreManager.cs"
 "Assets/Scripts/GameManager/Tilt.cs"
 "Assets/Scripts/GameManager/TiltReset.cs"
 "Assets/Scripts/PanCamera.cs"

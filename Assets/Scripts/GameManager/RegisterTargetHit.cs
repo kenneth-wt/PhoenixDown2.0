@@ -2,38 +2,56 @@ using UnityEngine;
 
 public class RegisterTargetHit : MonoBehaviour
 {
-  public bool hit = false;
-  public GameObject gameManager;
-  public new Light light;
+    public bool hit = false;
+    public GameObject gameManager;
+    public new Light light;
 
-  void Start()
-  {
-    if (hit) light.color = Color.blue;
-  }
+    void Start()
+    {
+        if (hit) 
+        {
+            light.color = Color.blue;
+        }
+    }
   
-  // Tombstone
-  void OnCollisionEnter()
-  {
-    if (!hit)
+    // Tombstone collision event
+    void OnCollisionEnter()
     {
-      CryptUnlock cryptUnlockScript = gameManager.GetComponent<CryptUnlock>();
-      cryptUnlockScript.Unlock();
+        if (!hit)
+        {
+            // Call the crypt unlock functionality
+            CryptUnlock cryptUnlockScript = gameManager.GetComponent<CryptUnlock>();
+            cryptUnlockScript.Unlock();
 
-      light.color = Color.blue;
+            // Change light color and set hit to true
+            light.color = Color.blue;
+            hit = true;
 
-      hit = true;
+            // Add 150 points to the score
+            if (ScoreManager.instance != null) 
+            {
+                ScoreManager.instance.AddScore(150);
+            }
+        }
     }
-  }
 
-  // Rollover
-  void OnTriggerEnter()
-  {
-    if (!hit)
+    // Rollover trigger event
+    void OnTriggerEnter()
     {
-      hit = true;
-      light.color = Color.blue;
+        if (!hit)
+        {
+            // Set hit to true and change light color
+            hit = true;
+            light.color = Color.blue;
 
-      gameManager.GetComponent<CatapultEnable>().Enable();
-    }
-  } 
+            // Enable the catapult
+            gameManager.GetComponent<CatapultEnable>().Enable();
+
+            // Add 150 points to the score
+            if (ScoreManager.instance != null) 
+            {
+                ScoreManager.instance.AddScore(150);
+            }
+        }
+    } 
 }
