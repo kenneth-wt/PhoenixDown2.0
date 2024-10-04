@@ -74,9 +74,11 @@
     <Compile Include="Assets\Scripts\Components\Bumper\Bumper.cs" />
     <Compile Include="Assets\Scripts\Components\Catapult\Catapult.cs" />
     <Compile Include="Assets\Scripts\Constants.cs" />
+    <Compile Include="Assets\LightActivator.cs" />
     <Compile Include="Assets\Scripts\Components\Flipper\Flipper.cs" />
     <Compile Include="Assets\Scripts\GameManager\RegisterTargetHit.cs" />
     <Compile Include="Assets\Scripts\EnableCatapultB1.cs" />
+    <Compile Include="Assets\Scripts\B4\GhostRed.cs" />
     <Compile Include="Assets\Scripts\Components\CryptDoor\CryptUnlock.cs" />
     <Compile Include="Assets\Scripts\GameManager\CatapultEnable.cs" />
     <Compile Include="Assets\Scripts\Components\Ramp\RampExit.cs" />
@@ -85,6 +87,7 @@
     <Compile Include="Assets\Scripts\Transitions\B3B2LossTransition.cs" />
     <Compile Include="Assets\Scripts\Transitions\B2B3TransitionTrigger.cs" />
     <Compile Include="Assets\Scripts\Components\Bumper\BumperOneEdge.cs" />
+    <Compile Include="Assets\DestructibleObject.cs" />
     <Compile Include="Assets\Scripts\GameManager\TiltReset.cs" />
     <Compile Include="Assets\Scripts\Components\DropTarget\DropTarget.cs" />
     <Compile Include="Assets\Scripts\GameManager\LayoutZombies.cs" />
@@ -99,6 +102,7 @@
     <Compile Include="Assets\Scripts\Components\Ramp\ExitTriggerTiltReset.cs" />
     <Compile Include="Assets\Scripts\Components\Flipper\ResetFlippers.cs" />
     <Compile Include="Assets\Scripts\Components\Ramp\RampPlatformLaunch.cs" />
+    <Compile Include="Assets\GreenGhost.cs" />
     <Compile Include="Assets\Scripts\Components\RollOver\Glyph.cs" />
     <Compile Include="Assets\Scripts\Transitions\B3BallEntry.cs" />
     <Compile Include="Assets\Scripts\Components\Ball Trigger\BallTrigger.cs" />
@@ -117,6 +121,7 @@
     <Compile Include="Assets\Scripts\Components\Plunger\Plunger.cs" />
     <Compile Include="Assets\Scripts\PanCamera.cs" />
     <Compile Include="Assets\Scripts\Components\GlyphDoor\GlyphDoor.cs" />
+    <Compile Include="Assets\Scripts\Newpartical.cs" />
     <Compile Include="Assets\Scripts\GameManager\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Components\Flipper\DisableFlippers.cs" />
     <Compile Include="Assets\Scripts\GameManager\Tilt.cs" />

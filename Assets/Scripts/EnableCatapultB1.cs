@@ -10,6 +10,7 @@ public class EnableCatapultB1 : MonoBehaviour
     // Reference to the catapult GameObject that you want to activate
     public GameObject catapult;
 
+    public GameObject fence;
     // This method is called when another object enters the trigger collider
     private void OnTriggerEnter(Collider other)
     {
@@ -28,6 +29,12 @@ public class EnableCatapultB1 : MonoBehaviour
             {
                 catapult.SetActive(true); // This will activate the catapult
                 Debug.Log("Catapult activated.");
+            }
+
+            if (fence != null)
+            {
+                fence.SetActive(false); // This will activate the catapult
+                Debug.Log("fenceoff");
             }
         }
     }
